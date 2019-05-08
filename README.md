@@ -38,4 +38,9 @@ The project layour is very simple and familiar if you already know [neutrino pro
 - `src` its the core of the application and contain all the code (`js`, `jsx`, `css`, `scss`, `sass) that you want to write
 - `test` contains the test files of your application
 
+### To be done
 
+Steps necessary to complete the starting kit:
+
+- [ ] add source as module resolve path to allow absolute file import from src
+- [ ] add css-loader and style-minifier for builded application
