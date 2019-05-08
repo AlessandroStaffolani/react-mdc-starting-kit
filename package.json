@@ -1,8 +1,25 @@
 {
-  "name": "react-material-starting-kit",
+  "name": "react-mdc-starting-kit",
+  "description": "Starting application with all configuration necessary to use: React, Google Material Components, Scss, Jest and neutrinojs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "A. Staffolani",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ale8193/react-mdc-starting-kit.git"
+  },
+  "keywords": [
+    "react",
+    "mdc",
+    "material-components",
+    "material-components-react",
+    "sass",
+    "scss",
+    "neutrinojs",
+    "webpack",
+    "jest"
+  ],
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
