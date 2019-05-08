@@ -1,0 +1,35 @@
+{
+  "name": "react-material-starting-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test"
+  },
+  "dependencies": {
+    "@material/react-button": "^0.12.0",
+    "@material/react-typography": "^0.12.0",
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-hot-loader": "^4"
+  },
+  "devDependencies": {
+    "@neutrinojs/html-template": "^9.0.0-rc.1",
+    "@neutrinojs/jest": "^9.0.0-rc.1",
+    "@neutrinojs/react": "^9.0.0-rc.1",
+    "@neutrinojs/standardjs": "^9.0.0-rc.1",
+    "@neutrinojs/style-loader": "^9.0.0-rc.1",
+    "eslint": "^5",
+    "jest": "^24",
+    "neutrino": "^9.0.0-rc.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  }
+}
