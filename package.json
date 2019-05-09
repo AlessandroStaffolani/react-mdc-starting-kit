@@ -35,12 +35,13 @@
     "react-hot-loader": "^4"
   },
   "devDependencies": {
+    "@neutrinojs/airbnb": "^9.0.0-rc.3",
     "@neutrinojs/html-template": "^9.0.0-rc.1",
     "@neutrinojs/jest": "^9.0.0-rc.1",
     "@neutrinojs/react": "^9.0.0-rc.1",
     "@neutrinojs/standardjs": "^9.0.0-rc.1",
     "@neutrinojs/style-loader": "^9.0.0-rc.1",
-    "eslint": "^5",
+    "eslint": "^5.16.0",
     "jest": "^24",
     "neutrino": "^9.0.0-rc.1",
     "node-sass": "^4.12.0",

@@ -22,7 +22,7 @@ yarn install
 
 - `yarn start` to start your application in development mode
 - `yarn test` to lunch your Jest test
-- `yarn lint` to run linter on your src and test files
+- `yarn lint` to run linter on your src and test files, add `--fix` tag to fix your code
 - `yarn build` to build your application  
 
 
