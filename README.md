@@ -1,5 +1,5 @@
 # React & Material Components starting-kit
-Starting application with all configuration necessary to use: React, Google Material Components, Scss, Jest and neutrinojs
+Starting application with all configuration necessary to use: React, Google Material Components, Scss, Jest, Flow and neutrinojs
 
 Versions used:
 
@@ -37,10 +37,3 @@ The project layour is very simple and familiar if you already know [neutrino pro
 - `resources` contains the html template file used to add external links like google font and the favicon file
 - `src` its the core of the application and contain all the code (`js`, `jsx`, `css`, `scss`, `sass) that you want to write
 - `test` contains the test files of your application
-
-### To be done
-
-Steps necessary to complete the starting kit:
-
-- [ ] add source as module resolve path to allow absolute file import from src
-- [ ] add css-loader and style-minifier for builded application

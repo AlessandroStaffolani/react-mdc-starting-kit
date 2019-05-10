@@ -1,6 +1,6 @@
 {
   "name": "react-mdc-starting-kit",
-  "description": "Starting application with all configuration necessary to use: React, Google Material Components, Scss, Jest and neutrinojs",
+  "description": "Starting application with all configuration necessary to use: React, Google Material Components, Scss, Jest, Flow and neutrinojs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -18,7 +18,8 @@
     "scss",
     "neutrinojs",
     "webpack",
-    "jest"
+    "jest",
+    "flow"
   ],
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
