@@ -1,4 +1,4 @@
-const airbnb = require('@neutrinojs/airbnb');
+const standard = require('@neutrinojs/standardjs');
 const react = require('@neutrinojs/react');
 const jest = require('@neutrinojs/jest');
 const style = require('@neutrinojs/style-loader');
@@ -9,9 +9,28 @@ module.exports = {
     root: __dirname,
   },
   use: [
-    airbnb(),
+    standard({
+      eslint: {
+        baseConfig: {
+          extends: ['plugin:flowtype/recommended'],
+          plugins: ['babel', 'flowtype'],
+        }
+      }
+    }),
     react({
-      publicPath: '/'
+      publicPath: '/',
+      babel: {
+        // Override options for @babel/preset-env:
+        presets: [
+          [
+            '@babel/preset-env',
+            {
+              useBuiltIns: 'entry',
+            },
+          ],
+          '@babel/preset-flow',
+        ],
+      }
     }),
     jest(),
     style({
