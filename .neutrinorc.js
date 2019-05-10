@@ -10,7 +10,9 @@ module.exports = {
   },
   use: [
     airbnb(),
-    react(),
+    react({
+      publicPath: '/'
+    }),
     jest(),
     style({
       test: /\.(css|sass|scss)$/,
