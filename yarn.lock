@@ -958,16 +958,6 @@
     react "^16.4.2"
     utility-types "^3.2.1"
 
-"@material/react-top-app-bar@^0.12.1":
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.12.1.tgz#c63e74556c1048bad0a627823ab5bd9c581438b9"
-  integrity sha512-9vvk/S8LNqIoMRU+JfcWU9h464uj8l3JFQrZanFfrVmJYfy6P8fm8uM1jlrdxtC9+jFyEU+HsV/eWEY64/1LjA==
-  dependencies:
-    "@material/react-ripple" "^0.12.0"
-    "@material/top-app-bar" "^1.1.0"
-    classnames "^2.2.6"
-    react "^16.4.2"
-
 "@material/react-typography@^0.12.0":
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@material/react-typography/-/react-typography-0.12.0.tgz#bb1d0a2326c8c975d1d15806cb36ea2555ec45a2"
@@ -1007,21 +997,6 @@
   integrity sha512-YYUV9Rhbx4r/EMb/zoOYJUWjhXChNaLlH1rqt3vpNVyxRcxGqoVMGp5u1XALBCFiD9dACPKLIkKyRYa928nmPQ==
   dependencies:
     "@material/feature-targeting" "^0.44.1"
-
-"@material/top-app-bar@^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@material/top-app-bar/-/top-app-bar-1.1.1.tgz#a7a339fbb49fcd11a6362ca9b301fac4e28398c4"
-  integrity sha512-UZ2aHB+lzI+ddy/Hcy61hvNbSZBLArgWwVtA1r4UvQAlvht0Zl85jCj1vs+GM+qxbMFfXFet2q0n5p4ykk9v7g==
-  dependencies:
-    "@material/animation" "^1.0.0"
-    "@material/base" "^1.0.0"
-    "@material/elevation" "^1.1.0"
-    "@material/ripple" "^1.1.0"
-    "@material/rtl" "^0.42.0"
-    "@material/shape" "^1.1.1"
-    "@material/theme" "^1.1.0"
-    "@material/typography" "^1.0.0"
-    tslib "^1.9.3"
 
 "@material/typography@^1.0.0":
   version "1.0.0"
